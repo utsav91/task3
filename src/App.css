@@ -64,6 +64,15 @@ input:placeholder-shown {
   box-shadow: 0 2px 11px 0 rgba(43, 61, 81, 0.16);
 }
 
+.no-user {
+  box-shadow: 0 2px 11px 0 rgba(43, 61, 81, 0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 290px;
+}
+
 .searchbar {
   display: flex;
   flex-direction: column;

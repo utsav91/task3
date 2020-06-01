@@ -13,6 +13,8 @@ export default function List(props) {
     }
   }, [props.index]);
 
+  if(props.list.length === 0) return <div className="no-user">No user found</div>
+
   return (
     <div className="list" onMouseMove={() => props.updatePointerClass()}>
       {props.list.map((item, i) => (
